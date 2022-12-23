@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgb(184, 175, 83);
+    width: 100%;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    box-shadow: 5px 5px 20px rgb(1, 66, 33);
+}
+
+.container .text{
+    padding-bottom:1rem ;
+}
+
+.container .text .generated-text{
+    font-size: 1.1rem;
+}
+
+.container .buttons{
+    text-align: center;
+}
+
+.container .buttons button{
+    padding: 0.3rem 0.6rem;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    border-radius: .3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(148, 217, 182);
+}
+
+.container .buttons .generator{
+    margin-right: .5rem;
+    color: blue;
+    transition: all .2s linear;
+}
+
+.container .buttons .copy-text{
+    margin-left: .5rem;
+    color: rgb(4, 130, 32);
+    transition: all .2s linear;
+}
+
+.container .buttons .generator:hover{
+    background-color: #fff;
+}
+
+.container .buttons .copy-text:hover{
+    background-color: #fff;
+}
+
+@media screen and (min-width:600px) {
+    .container{
+        width: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
